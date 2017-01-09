@@ -1,12 +1,3 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-/*
-* Style tweaks
-* --------------------------------------------------
-*/
 html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -29,7 +20,7 @@ footer {
 #header{
 	background-image: image-url("header.png");
 	margin-bottom: 0px;
-	height: 60px;
+	height: 140px;
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
@@ -68,29 +59,96 @@ footer {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-#section-one-txt {
-    position: absolute;
-    top: 50%;
-    padding: 0 50px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+
+.section-container{
+	p{
+		margin: 0px;
+		color: white;
+		font-size: 22px;
+	}
+	h1, h2{
+		color: white;	
+		text-transform: uppercase;
+	}
+	.btn-find-out-more{
+		border-radius: 0px;
+	    background-color: rgba(255,255,255,0.5);
+	    font-size: 36px;
+	    color: white;
+	    border: none;
+	    padding: 10px 20px;
+	}
+	.section-title{
+		font-size: 70px; 
+		text-shadow: 5px 5px 8px rgba(0,0,0, 0.6);
+	}
+	.section-title2{
+		font-size: 52px;
+	}
+	.section-content{
+		font-size: 24px;
+	}
+	.col-md-8, .col-md-4, .col-md-5, .col-md-2{
+		padding: 0px;
+	}
+	.footer_view{
+		background-color: #32aeba;
+		height: 40px;
+		padding: 0px;
+	}
+	.section-one{
+		background-image: image-url("header_image.png");
+		background-size: cover;
+		min-height: 1052px;
+	}
+	.section-two{
+		background-color: #32aeba;
+		height: 1375px;
+	}
+	.section-three{
+		background-image: image-url("background_map.png");
+		min-height: 600px;
+	}
+	.section-content-text{
+		margin-left: -130px; 
+		margin-top: -25px;
+	}
+	.left-section{
+		margin-left: 50px;
+		margin-top: 150px;
+	}
+	.left-section_2{
+		padding-left: 400px;
+		margin-top: -200px;
+	}
+	.left-section_t1{
+		margin-right: -150px;
+	}
+	.right-section{
+		margin-left: -60px;
+		margin-top: 310px;
+	}
+	.section2-driver-text{
+		background-color: #32aeba;
+		width: 680px;
+		margin-left: 6px;
+		margin-top: -110px;
+		padding: 22px;
+
+		p{
+			font-size: 30px;
+		}
+	}
+	.section2-pass-text{
+		background-color: #32aeba;
+		width: 680px;
+		margin-left: -20px;
+		margin-top: 165px;
+		padding: 22px;
+
+		p{
+			font-size: 30px;
+		}
+	}
 }
-.footer_view{
-	background-color: #32aeba;
-	height: 40px;
-	padding: 0px;
-}
-.section-one{
-	background-image: image-url("header_image.png");
-	background-size: cover;
-	min-height: 1052px;
-}
-.section-two{
-	background-color: #32aeba;
-	min-height: 1100px;
-}
-.section-three{
-	background-image: image-url("background_map.png");
-	min-height: 600px;
-}
+
