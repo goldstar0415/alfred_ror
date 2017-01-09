@@ -1,10 +1,45 @@
-<section class="section-two">
+<section class="section-four">
     <div class="row">
-		<div class="col-md-8 left-section">
-			
+		<div class="col-lg-7 col-lg-offset-1 section-four-left">
+			<h1>about us</h1>
+			<p>
+				Alfred’s vision is to become the main platform for independent and “live ridesharing”. Alfred will help society to become more efficient and economical with their travel habits within our cities. Alfred will offer a safe social platform for its users to connect with each other and travel together!
+			</p>
+			<div class="row">
+				<div class="col-lg-1">
+					<div>
+						<%= image_tag("icon_phone.png") %>
+					</div>
+					<div>
+						<%= image_tag("icon_email.png") %>
+					</div>
+					<div>
+						<%= image_tag("icon_address.png") %>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<p>0208 355 13 10</p>
+					<p>info@alfredridesharing.com</p>
+					<p>69 Brook St, Myfair, London <br /> W1K 4ER, Great Britain</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-4 right-section">
-			
+		<div class="col-lg-4 text-center section-four-right">
+			<h2>launching soon on:</h2>
+			<div>
+				<a href=""><%= image_tag("icon_appstore.png") %></a>
+			</div>
+			<div>
+				<a href=""><%= image_tag("icon_google.png") %></a>
+			</div>
+			<h3>Want to be notified ?</h3>
+			<p style="color: #32aeba;"><%= text_field_tag 'name', nil, {placeholder: 'Your Email', class: "input_placeholder"}%></p>
+			<div><a href=""><%= image_tag("button_notify_me.png") %></a></div>
+			<div>
+				<a href="https://www.instagram.com/Alfredridesharing/?ref=badge"><%= image_tag("icon_insta.png") %></a>
+				<a href="https://twitter.com/AlfredRideShare"><%= image_tag("icon_twitter.png") %></a>
+				<a href=""><%= image_tag("icon_fb.png") %></a>
+			</div>
 		</div>
 	    
 	</section>

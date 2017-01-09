@@ -59,12 +59,39 @@ footer {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+.footer-view{
+	background-color: #84ced7;
+    padding-top: 10px;
+    padding-bottom: 40px;
+	p{
+		color: white;
+		font-size: 21px;
+	}
+	a{
+		font-size: 21px;
+	}
+	.col-lg-7{
+		padding-left: 100px;
+		a{
+			margin-right: 30px;
+			color: white;
+		}
+	}
+	.input_placeholder{
+		color: #32aeba;
+		width: 306px;
+	    height: 56px;
+	    border-left-width: 0px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+}
 
 .section-container{
 	p{
 		margin: 0px;
 		color: white;
-		font-size: 22px;
+		font-size: 18px;
 	}
 	h1, h2{
 		color: white;	
@@ -88,14 +115,9 @@ footer {
 	.section-content{
 		font-size: 24px;
 	}
-	.col-md-8, .col-md-4, .col-md-5, .col-md-2{
+	.col-md-8, .col-md-4, .col-md-5, .col-md-2, .col-lg-7, .col-lg-5{
 		padding: 0px;
-	}
-	.footer_view{
-		background-color: #32aeba;
-		height: 40px;
-		padding: 0px;
-	}
+	}	
 	.section-one{
 		background-image: image-url("header_image.png");
 		background-size: cover;
@@ -103,22 +125,26 @@ footer {
 	}
 	.section-two{
 		background-color: #32aeba;
-		height: 1375px;
+		height: 1430px;
 	}
 	.section-three{
 		background-image: image-url("background_map.png");
 		min-height: 600px;
+
+		p{
+			font-size: 25px;
+		}
 	}
 	.section-content-text{
-		margin-left: -130px; 
-		margin-top: -25px;
+		margin-left: -55px; 
+		margin-top: -30px;
 	}
 	.left-section{
 		margin-left: 50px;
-		margin-top: 150px;
+		margin-top: 95px;
 	}
 	.left-section_2{
-		padding-left: 400px;
+		padding-left: 260px;
 		margin-top: -200px;
 	}
 	.left-section_t1{
@@ -126,28 +152,72 @@ footer {
 	}
 	.right-section{
 		margin-left: -60px;
-		margin-top: 310px;
+		margin-top: 320px;
+
+		.right-section-2{
+			margin-top: 150px; 
+			margin-left: -140px;
+
+			.content-text{
+				margin-top: -55px; 
+				margin-left: -90px;
+			}
+		}
 	}
 	.section2-driver-text{
 		background-color: #32aeba;
-		width: 680px;
-		margin-left: 6px;
-		margin-top: -110px;
-		padding: 22px;
+		width: 600px;
+		margin-left: 20px;
+		margin-top: -100px;
+		padding: 20px;
 
-		p{
-			font-size: 30px;
-		}
 	}
 	.section2-pass-text{
 		background-color: #32aeba;
-		width: 680px;
-		margin-left: -20px;
+		width: 580px;
+		margin-left: -50px;
 		margin-top: 165px;
-		padding: 22px;
+		padding: 20px;
 
+	}
+	.section2-message-text{
+		background-color: #32aeba;
+		width: 580px;
+		margin-top: 200px;
+		padding: 20px;
+
+	}
+	.section-four{
+		padding-top: 30px;
+		background-color: #32aeba;
+		height: 663px;
+
+		.section-four-left{
+			padding-right: 80px;
+			margin-left: 100px;
+		}
+		h1{
+			font-size: 40px;
+		}
+		h2{
+			font-size: 34px;
+		}
+		h3{
+			font-size: 25px;
+			color: white;
+		}
 		p{
-			font-size: 30px;
+			font-size: 26px;
+			padding-top: 24px;
+		}
+		.col-lg-1 div{
+			padding-top: 26px;
+		}
+		.col-lg-4 div{
+			padding-top: 26px;
+			img{
+				padding-right: 24px;
+			}
 		}
 	}
 }
