@@ -1,6 +1,7 @@
 html,
 body {
-    overflow-x: hidden; /* Prevent scroll on narrow devices */
+	min-width: 1665px;
+    overflow-x: auto; /* Prevent scroll on narrow devices */
 }
 
 footer {
@@ -14,11 +15,22 @@ footer {
     font-size: 24px;
 }
 
+#navbar{
+	text-align: center;
+	.navbar-nav-custom{
+		li{
+			float: left;
+		}
+		
+	}
+}
+
+
 .navbar-container {
     padding: 20px 0 20px 0;
 }
 #header{
-	background-image: image-url("header.png");
+	/*background-image: image-url("header.png");*/
 	margin-bottom: 0px;
 	height: 140px;
 }
@@ -71,19 +83,11 @@ footer {
 		font-size: 21px;
 	}
 	.col-lg-7{
-		padding-left: 100px;
+		padding-left: 60px;
 		a{
 			margin-right: 30px;
 			color: white;
 		}
-	}
-	.input_placeholder{
-		color: #32aeba;
-		width: 306px;
-	    height: 56px;
-	    border-left-width: 0px;
-	    padding-left: 10px;
-	    padding-right: 10px;
 	}
 }
 
@@ -113,7 +117,7 @@ footer {
 		font-size: 52px;
 	}
 	.section-content{
-		font-size: 24px;
+		font-size: 27px;
 	}
 	.col-md-8, .col-md-4, .col-md-5, .col-md-2, .col-lg-7, .col-lg-5{
 		padding: 0px;
@@ -188,36 +192,50 @@ footer {
 
 	}
 	.section-four{
-		padding-top: 30px;
+		padding-top: 50px;
 		background-color: #32aeba;
-		height: 663px;
+		height: 740px;
 
 		.section-four-left{
 			padding-right: 80px;
 			margin-left: 100px;
 		}
 		h1{
-			font-size: 40px;
+			font-size: 46px;
 		}
 		h2{
-			font-size: 34px;
+			font-size: 38px;
 		}
 		h3{
-			font-size: 25px;
-			color: white;
+			font-size: 30px;
+		    color: white;
+		    margin-top: 42px;
+		    margin-bottom: -6px;
 		}
 		p{
 			font-size: 26px;
-			padding-top: 24px;
+			padding-top: 30px;
 		}
 		.col-lg-1 div{
-			padding-top: 26px;
+			margin-top: 34px;
 		}
 		.col-lg-4 div{
-			padding-top: 26px;
+			padding-top: 40px;
 			img{
-				padding-right: 24px;
+				margin-right: 24px;
 			}
+		}
+		.image_shadow{
+			box-shadow: 0px 5px 1px rgba(0,0,0,0.3);
+    		border-radius: 35px;
+		}
+		.input-placeholder{
+			color: #32aeba;
+			width: 306px;
+		    height: 56px;
+		    border-left-width: 0px;
+		    padding-left: 10px;
+		    padding-right: 10px;
 		}
 	}
 }
