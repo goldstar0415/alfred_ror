@@ -22,7 +22,7 @@ footer {
 
 #navbar{
 	text-align: center;
-	.navbar-nav-custom{
+	.navbar-nav{
 		li{
 			float: left;
 		}
@@ -30,10 +30,10 @@ footer {
 	}
 }
 
-.navbar .navbar-nav-custom {
+.navbar .navbar-nav {
   display: inline-block;
   float: none;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .navbar .navbar-collapse {
@@ -62,7 +62,8 @@ footer {
 	}
 	li{
 		margin-right: 15px;
-    	margin-left: 15px;
+  	margin-left: 15px;
+		margin-top: 20px;
 
 		a{
 			color: white;
@@ -73,16 +74,14 @@ footer {
 				color: gray;
 				background-color: transparent;
 			}
-			&:active{
-				background-color: rgba(0, 0, 0, 0.3);
-			}
-			&:focus{
-				background-color: rgba(0, 0, 0, 0.5);
-			}
+		}
+	}
+	li.active{
+		a{
+			background-color: rgba(0, 0, 0, 0.5);
 		}
 	}
 }
-
 
 .navbar.navbar-fixed-top.fixed-theme {
     background-color: #222;
@@ -109,19 +108,10 @@ footer {
 .nav_logo{
 	background-image: image-url("");
 	height: 60px;
-    width: 60px;
-    background-size: cover;
+  width: 60px;
+  background-size: cover;
 }
 
-
-.header-content {
-    position: absolute;
-    top: 50%;
-    padding: 0 50px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
 .footer-view{
 	background-color: #84ced7;
     padding-top: 10px;
