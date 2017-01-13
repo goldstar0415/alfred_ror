@@ -2,7 +2,14 @@
 <html>
 <head>
   <title>Bootstrap Example</title>
+  <script>
+  $(document).ready(function(){
+    $('#temp1').waypoint(function() {
+        $('#temp1').addClass('animated fadeInUp');
+    }, { offset: '50%' });
 
+    });
+  </script>
   <style>
 
   #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
@@ -67,6 +74,11 @@
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
-
+<h1 id="temp1">Example</h1>
+<h1 id="temp2">Example</h1>
+<h1 class="animated fadeInUp">Example</h1>
+<h1 class="animated fadeInUp">Example</h1>
+<h1 class="animated bounceOutLeft">Example</h1>
+<h1 class="animated bounce">Example</h1>
 </body>
 </html>

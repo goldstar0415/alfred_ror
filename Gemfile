@@ -12,6 +12,9 @@ gem 'jbuilder',  '2.4.1'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
+gem "animate-rails"
+
+
 group :development, :test do
   gem 'sqlite3', '1.3.12'
   gem 'byebug',  '9.0.0', platform: :mri
