@@ -1,0 +1,106 @@
+@media only screen
+and (max-width : 1000px) {
+	.nav-triangle{
+    display: none;
+  }
+  #icon_logo{
+    display: none;
+  }
+  #header{
+    height: 110px;
+  }
+}
+@media only screen
+and (max-width : 765px) {
+  #header{
+    height: 72px;
+  }
+}
+/* iPhone 5 ----------- */
+@media only screen
+and (max-width : 320px) {
+	body #ut-hero .grid-container .v_poster{
+		height: 50vh ;
+	}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	body #ut-hero .grid-container .v_poster{
+		height: 100vh ;
+	}
+}
+
+
+/* iPhone 6S ----------- */
+@media only screen
+and (max-width : 375px) {
+	body #ut-hero .grid-container .v_poster{
+		height: 50vh ;
+	}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 376px) {
+	body #ut-hero .grid-container .v_poster{
+		/*height: 108vh ;*/
+	}
+}
+
+/* iPhone 6S Plus----------- */
+@media only screen
+and (max-width : 414px) {
+	body #ut-hero .grid-container .v_poster{
+		height: 50vh ;
+	}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 415px) {
+	body #ut-hero .grid-container .v_poster{
+		/*height: 110vh ;*/
+	}
+}
+
+/* iPhone 7----------- */
+@media only screen
+and (max-width : 750px) and (orientation:portrait)  {
+	body #ut-hero .grid-container .v_poster{
+		height: 36vh ;
+	}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 751px) {
+	body #ut-hero .grid-container .v_poster{
+		height: 110vh ;
+	}
+}
+
+/* iPhone 7 Plus----------- */
+@media only screen
+and (max-width : 1080px) and (orientation:portrait) {
+	body #ut-hero .grid-container .v_poster{
+		height: 30vh ;
+	}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 1081px) and (orientation:landscape) {
+	body #ut-hero .grid-container .v_poster{
+		height: 110vh ;
+	}
+}
+
+/* iPad----------- */
+@media only screen
+and (max-width : 768px) and (orientation:portrait)  {
+	body #ut-hero .grid-container .v_poster{
+		height: 49vh ;
+	}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 769px) and (orientation:landscape){
+
+}

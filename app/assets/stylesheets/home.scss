@@ -1,7 +1,7 @@
 html,
 body {
-	/**min-width: 1665px;*/
-	min-width: 1452px;
+	// min-width: 1452px;
+	width: 100%;
     overflow-x: auto; /* Prevent scroll on narrow devices */
     .row{
     	margin-left: 0px;
@@ -9,13 +9,6 @@ body {
     }
 }
 
-footer {
-    padding: 30px 0;
-}
-
-/*
- * Custom styles
- */
 .navbar-brand {
     font-size: 24px;
 }
@@ -29,7 +22,11 @@ footer {
 
 	}
 }
-
+.navbar-toggle {
+    position: absolute;
+    left: 2%;
+    top: 10px;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -111,20 +108,25 @@ footer {
   width: 60px;
   background-size: cover;
 }
-
+footer {
+  padding: 30px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
 .footer-view{
 	background-color: #84ced7;
     padding-top: 10px;
     padding-bottom: 40px;
 	p{
 		color: white;
-		font-size: 20px;
+		font-size: 18px;
 	}
 	a{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.col-lg-7{
-		padding-left: 60px;
+		padding-left: 50px;
 		a{
 			margin-right: 30px;
 			color: white;
@@ -152,6 +154,7 @@ footer {
 	}
 	.section-title{
 		font-size: 70px;
+		margin-top: 320px;
 		text-shadow: 5px 5px 8px rgba(0,0,0, 0.6);
 	}
 	.section-title2{
@@ -166,7 +169,7 @@ footer {
 	.section-one{
 		background-image: image-url("header_image.png");
 		background-size: cover;
-		min-height: 1052px;
+		// min-height: 1052px;
 	}
 	.section-two{
 		background-color: #32aeba;
