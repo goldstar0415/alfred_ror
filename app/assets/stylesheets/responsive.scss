@@ -11,6 +11,124 @@ and (max-width : 1000px) {
   }
 }
 @media only screen
+and (max-width : 1200px) {
+	.section-container{
+		p{
+			font-size: 14px;
+		}
+
+		.section-one{
+			background-size: cover;
+			#btn_find_out_more_hidden{
+				display:inline !important;
+				font-size: 18px;
+			}
+			#btn_find_out_more_show{
+				display: none;
+			}
+			.section-title{
+				font-size: 40px;
+				margin-top: 250px;
+			}
+			.section-content1{
+				font-size: 18px;
+				margin-top: 30px;
+			}
+			.content-btn-section1{
+				margin-top: 80px;
+			}
+		}
+		.section-two{
+			.section-title2{
+				font-size: 40px;
+			}
+			.section-content2{
+				font-size: 18px;
+		    margin-top: 30px;
+		    margin-bottom: 40px;
+			}
+			#img_road_01{
+				margin-left: 9em;
+    		margin-top: -3em;
+			}
+		}
+		.section-three{
+			p{
+				font-size: 23px;
+			}
+			.section-content-text{
+				margin-left: -1em;
+				margin-top: -30px;
+			}
+			.section2-driver-text{
+				background-color: #32aeba;
+				margin-right: 5em;
+				margin-left: 3em;
+				margin-top: -4em;
+				padding: 20px;
+
+			}
+			.section2-pass-text{
+				background-color: #32aeba;
+				margin-right: -4em;
+				margin-top: 12em;
+				padding: 20px;
+
+			}
+			.section2-message-text{
+				background-color: #32aeba;
+				margin-right: 5em;
+				margin-top: 12em;
+				padding: 20px;
+
+			}
+		}
+		.section-four{
+			h1{
+				font-size: 46px;
+			}
+			h2{
+				font-size: 38px;
+			}
+			h3{
+				font-size: 30px;
+			    color: white;
+			    margin-top: 42px;
+			    margin-bottom: -6px;
+			}
+			p{
+				font-size: 26px;
+				padding-top: 30px;
+			}
+			.col-lg-1 div{
+				margin-top: 34px;
+			}
+			.col-lg-4 div{
+				padding-top: 40px;
+				img{
+					margin-right: 24px;
+				}
+			}
+			.image_shadow{
+				box-shadow: 0px 5px 1px rgba(0,0,0,0.3);
+	    		border-radius: 35px;
+			}
+			.section-four-left{
+				padding-right: 80px;
+				margin-left: 100px;
+			}
+			.input-placeholder{
+				color: #32aeba;
+				width: 306px;
+			    height: 56px;
+			    border-left-width: 0px;
+			    padding-left: 10px;
+			    padding-right: 10px;
+			}
+		}
+	}
+}
+@media only screen
 and (max-width : 765px) {
   #header{
     height: 72px;
@@ -50,8 +168,11 @@ and (min-width : 376px) {
 /* iPhone 6S Plus----------- */
 @media only screen
 and (max-width : 414px) {
-	body #ut-hero .grid-container .v_poster{
-		height: 50vh ;
+	#icon_appstore_link{
+		width: 100%;
+	}
+	#icon_google_link{
+		width: 100%;
 	}
 }
 /* Smartphones (landscape) ----------- */
@@ -95,8 +216,8 @@ and (min-width : 1081px) and (orientation:landscape) {
 /* iPad----------- */
 @media only screen
 and (max-width : 768px) and (orientation:portrait)  {
-	body #ut-hero .grid-container .v_poster{
-		height: 49vh ;
+	#header li a{
+		font-size: 25px;
 	}
 }
 /* Smartphones (landscape) ----------- */

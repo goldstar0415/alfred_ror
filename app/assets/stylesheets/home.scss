@@ -109,15 +109,12 @@ body {
   background-size: cover;
 }
 footer {
-  padding: 30px 0;
-	position: fixed;
-	bottom: 0;
 	width: 100%;
 }
-.footer-view{
+.footer{
 	background-color: #84ced7;
     padding-top: 10px;
-    padding-bottom: 40px;
+    // padding-bottom: 40px;
 	p{
 		color: white;
 		font-size: 18px;
@@ -144,100 +141,167 @@ footer {
 		color: white;
 		text-transform: uppercase;
 	}
-	.btn-find-out-more{
-		border-radius: 0px;
+	.col-md-8, .col-md-4, .col-md-5, .col-md-2, .col-lg-7, .col-lg-5{
+		padding: 0px;
+	}
+
+	.section-one{
+		background-image: image-url("header_image.png");
+		background-size: cover;
+		// min-height: 1052px;
+		.btn-find-out-more{
+			border-radius: 0px;
 	    background-color: rgba(255,255,255,0.5);
 	    font-size: 36px;
 	    color: white;
 	    border: none;
 	    padding: 10px 20px;
-	}
-	.section-title{
-		font-size: 70px;
-		margin-top: 320px;
-		text-shadow: 5px 5px 8px rgba(0,0,0, 0.6);
-	}
-	.section-title2{
-		font-size: 52px;
-	}
-	.section-content1, .section-content2{
-		font-size: 25px;
-	}
-	.col-md-8, .col-md-4, .col-md-5, .col-md-2, .col-lg-7, .col-lg-5{
-		padding: 0px;
-	}
-	.section-one{
-		background-image: image-url("header_image.png");
-		background-size: cover;
-		// min-height: 1052px;
+		}
+		.section-content1{
+			font-size: 25px;
+			margin-top: 120px;
+		}
+		.content-btn-section1{
+			margin-top: 200px;
+			margin-bottom: 50px;
+		}
+		#btn_find_out_more_hidden{
+			display: none;
+		}
+		.section-title{
+			font-size: 70px;
+			margin-top: 5em;
+			text-shadow: 5px 5px 8px rgba(0,0,0, 0.6);
+		}
 	}
 	.section-two{
 		background-color: #32aeba;
-		height: 1478px;
+		// height: 1478px;
+		.section-content2{
+			font-size: 25px;
+			margin-top: 60px; margin-bottom: 60px
+		}
+		.section-title2{
+			font-size: 52px;
+			margin-top: 60px;
+		}
+		.div_over_crowding{
+			margin-top: 180px;
+		}
+		#p_over_crowding{
+			margin-right: 55px;
+		}
+		#img_road_01{
+			margin-left: 90px;
+			margin-top: -60px;
+		}
+		#icon_why_alfred{
+			margin-left: -107px;
+			margin-top: -90px
+		}
+		#img_road_02{
+			margin-left: -26px;
+			margin-top: -52px
+		}
+		.left-section{
+			margin-left: 50px;
+			margin-top: 95px;
+		}
+		.left-section_2{
+			padding-left: 12em;
+			margin-top: -200px;
+		}
+		.left-section_t1{
+			margin-right: -150px;
+		}
+		.right-section{
+			margin-left: -60px;
+			margin-top: 320px;
+
+			.right-section-2{
+				margin-top: 150px;
+				margin-left: -140px;
+
+				.content-text{
+					margin-top: -55px;
+					margin-left: -4em;
+				}
+			}
+		}
 	}
 	.section-three{
 		background-image: image-url("background_map.png");
 		min-height: 600px;
-
 		p{
 			font-size: 23px;
 		}
-	}
-	.section-content-text{
-		margin-left: -1em;
-		margin-top: -30px;
-	}
-	.left-section{
-		margin-left: 50px;
-		margin-top: 95px;
-	}
-	.left-section_2{
-		padding-left: 12em;
-		margin-top: -200px;
-	}
-	.left-section_t1{
-		margin-right: -150px;
-	}
-	.right-section{
-		margin-left: -60px;
-		margin-top: 320px;
-
-		.right-section-2{
-			margin-top: 150px;
-			margin-left: -140px;
-
-			.content-text{
-				margin-top: -55px;
-				margin-left: -4em;
-			}
+		.section-content-text{
+			margin-left: -1em;
+			margin-top: -30px;
 		}
-	}
-	.section2-driver-text{
-		background-color: #32aeba;
-		margin-right: 5em;
-		margin-left: 3em;
-		margin-top: -4em;
-		padding: 20px;
+		.section2-driver-text{
+			background-color: #32aeba;
+			margin-right: 5em;
+			margin-left: 3em;
+			margin-top: -4em;
+			padding: 20px;
 
-	}
-	.section2-pass-text{
-		background-color: #32aeba;
-		margin-right: -4em;
-		margin-top: 12em;
-		padding: 20px;
+		}
+		.section2-pass-text{
+			background-color: #32aeba;
+			margin-right: -4em;
+			margin-top: 12em;
+			padding: 20px;
 
-	}
-	.section2-message-text{
-		background-color: #32aeba;
-		margin-right: 5em;
-		margin-top: 12em;
-		padding: 20px;
-
+		}
+		.section2-message-text{
+			background-color: #32aeba;
+			margin-right: 5em;
+			margin-top: 12em;
+			padding: 20px;
+		}
+		#img_message{
+			margin-top: 12em;
+		}
+		#img_driver_mode{
+			margin-left: -40px;
+			margin-top: -4px;
+		}
+		#img_road_03{
+			margin-left: -120px;
+			margin-top: -125px;
+		}
+		#img_passenger{
+			margin-left: 124px;
+			margin-top: -12px;
+		}
+		#img_road_04{
+			margin-left: 90px;
+			margin-top: -105px;
+		}
+		#img_message_board{
+			margin-left: -74px;
+			margin-top: 0px;
+		}
+		#img_road_05{
+			margin-left: -25px;
+			margin-top: -90px;
+		}
+		#img_road_arrow{
+			margin-left: 125px;
+			margin-top: 40px;
+			margin-bottom: 30px;
+		}
+		#img_passenger_mode{
+			margin-top: 15em;
+			margin-left: 15em;
+		}
 	}
 	.section-four{
 		padding-top: 50px;
+		padding-bottom: 150px;
 		background-color: #32aeba;
-		height: 740px;
+		// height: 740px;
 
 		.section-four-left{
 			padding-right: 80px;
