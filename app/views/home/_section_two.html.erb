@@ -8,13 +8,15 @@
     </div>
     <div class="row">
     	<div id="btn_get_started" class="btn-get-started">
-    		<a href="http://www.alfredridesharing.com/competition/" style="margin-left: -32px;"><%= image_tag("button_get_started.png", width: 320)%></a>
+    		<a href="http://www.alfredridesharing.com/competition/"><%= image_tag("button_get_started.png", width: 320)%></a>
     	</div>
     </div>
     <div class="row">
 			<div class="col-lg-5 left-section text-left">
 				<div class="row">
-					<div id="icon_road_traffic" class="col-lg-4"><%= image_tag("icon_Road traffic.png")%></div>
+					<div id="icon_road_traffic" class="col-lg-4">
+						<%= image_tag("icon_Road traffic.png", id: "section2_icon_road_traffic")%>
+					</div>
 					<div class="col-md-8 section-content-text">
 						<h2 id="h2_road_traffic">ROAD TRAFFIC</h2>
 						<p class="left-section_t1">
@@ -23,7 +25,9 @@
 					</div>
 				</div>
 				<div class="row div_over_crowding">
-					<div id="icon_over_crowding" class="col-lg-4"><%= image_tag("icon_Over Crowding.png")%></div>
+					<div id="icon_over_crowding" class="col-lg-4">
+						<%= image_tag("icon_Over Crowding.png", id: "section2_icon_over_crowding")%>
+					</div>
 					<div class="col-lg-8 section-content-text">
 						<h2 id="h2_over_crowding">Over Crowding</h2>
 						<p id="p_over_crowding">
@@ -39,7 +43,9 @@
 			</div>
 			<div class="col-lg-5 right-section text-left">
 				<div class="row">
-					<div id="img_increasing_public_transport" class="col-lg-4"><%= image_tag("icon_Increasing public transport fares.png")%></div>
+					<div id="img_increasing_public_transport" class="col-lg-4">
+						<%= image_tag("icon_Increasing public transport fares.png", id: "section2_icon_increasing")%>
+					</div>
 					<div class="col-lg-8 section-content-text">
 						<h2 id="h2_increasing_public">Increasing public transport fares</h2>
 						<p id="p_increasing_public">
@@ -48,7 +54,7 @@
 					</div>
 				</div>
 				<div class="row right-section-2">
-					<div id="img_helping" class="col-lg-4"><%= image_tag("icon_Helping the environment.png")%></div>
+					<div id="img_helping" class="col-lg-4"><%= image_tag("icon_Helping the environment.png", id: "section2_icon_helping")%></div>
 					<div class="col-lg-8 content-text">
 						<h2 id="h2_helping">Helping the environment</h2>
 						<p id="p_helping">
@@ -61,18 +67,18 @@
 	</div>
 	<div class="hidden-lg section-two-mobile">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-	        <h1 class="section-title2">WHAT IS ALFRED ?</h1>
-	        <p class="section-content2">
-	        	Alfred helps you to ride share in our cities in an affordable manner using the concept of car sharing. Alfred is an IOS and Android app which has been developed with the sole purpose of organising and facilitating ridesharing with a few clicks of a button. The app aims to make each task as easy as possible for users as algorithms automatically match users with suitable and relevant rides.
-	        </p>
-	    </div>
+			<h1 class="section-title2">WHAT IS ALFRED ?</h1>
+			<p class="section-content2">
+				Alfred helps you to ride share in our cities in an affordable manner using the concept of car sharing.
+				Alfred is an IOS and Android app which has been developed with the sole purpose of organising and facilitating ridesharing with a few clicks of a button.
+				The app aims to make each task as easy as possible for users as algorithms automatically match users with suitable and relevant rides.
+			</p>
 		</div>
 	  <div class="row">
-	  	<div id="btn_get_started" class="btn-get-started col-md-2 col-sm-2 col-xs-2 col-md-offset-5 col-sm-offset-5 col-xs-offset-5">
-				<a href="http://www.alfredridesharing.com/competition/"><%= image_tag("mobile/button.png", width: 210)%></a>
+	  	<div id="btn_get_started" class="btn-get-started">
+				<a href="http://www.alfredridesharing.com/competition/"><%= image_tag("mobile/button.png", width: 210, :class => "img-get-started")%></a>
 			</div>
-			<div id="img_road_01_mobile" class="col-md-5 col-sm-5 col-xs-5 col-md-offset-7 col-sm-offset-7 col-xs-offset-7">
+			<div id="img_road_01_mobile" class="col-md-5 col-sm-5 col-xs-5 col-md-offset-6 col-sm-offset-6 col-xs-offset-6">
 				<%= image_tag("mobile/road_01.png", :class => "img_road_01")%>
 			</div>
 	  </div>
@@ -84,7 +90,7 @@
 				<div id="section_two_mobile_arrow_left" class="col-md-5 col-sm-5 col-xs-5 text-right">
 					<%= image_tag("mobile/arrow_left.png", :class => "img-arrow-left")%>
 				</div>
-				<div class="col-md-2 col-sm-2 com-xs-2 text-right div-road-traffic-img">
+				<div class="col-md-2 col-sm-2 col-xs-2 div-road-traffic-img">
 					<%= image_tag("mobile/icon_road_traffic.png", :class => "icon_road_traffic")%>
 				</div>
 				<div id="section_two_mobile_arrow_right" class="col-md-5 col-sm-5 col-xs-5 text-left">
@@ -96,7 +102,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div id="section_two_mobile_road_2"><%= image_tag("mobile/road_02.png")%></div>
+			<div id="section_two_mobile_road_2"><%= image_tag("mobile/road_02.png", :class => "img-road-02")%></div>
 		</div>
 	</div>
 </section>

@@ -310,7 +310,7 @@ footer {
 	}
 	.section-four{
 		padding-top: 50px;
-		padding-bottom: 100px;
+		padding-bottom: 10px;
 		background-color: #32aeba;
 		// height: 740px;
 
@@ -355,18 +355,27 @@ footer {
 		    padding-left: 10px;
 		    padding-right: 10px;
 		}
+		.div-info{
+			text-align: left;
+			padding-left: -20px;
+		}
+		#button_notify_me{
+			margin-bottom: 30px
+		}
 	}
 	.section-two-mobile{
 		background-color: #32aeba;
 		padding-bottom: 30px;
 		// height: 1478px;
 		.section-title2{
-			font-size: 40px;
+			font-size: 32px;
 		}
 		.section-content2{
 			font-size: 18px;
 			margin-top: 30px;
 			margin-bottom: 40px;
+			padding-left: 1em;
+			padding-right: 1em;
 		}
 		.div_over_crowding{
 			margin-top: 180px;
@@ -380,9 +389,9 @@ footer {
 		#p_over_crowding{
 			margin-right: 55px;
 		}
-		#img_road_01{
-			margin-top: 6px;
-			margin-left: -6em;
+		#img_road_01_mobile{
+			margin-top: -3em;
+
 		}
 		#icon_why_alfred{
 			margin-left: -20px;
@@ -402,7 +411,7 @@ footer {
 			padding-top: 30px;
 		}
 		.div-road-traffic-img{
-			margin-left: -2.5em;
+			margin-left: 0em;
 		}
 		.div-road-traffic{
 			background-color: white;
@@ -437,7 +446,7 @@ footer {
 		#section_three_mobile_iphone{
 			padding-top: 2em;
 			padding-right: 5em;
-			padding-left: 6em;
+			padding-left: 4em;
 		}
 		.div-driver-text{
 			background-color: #32aeba;

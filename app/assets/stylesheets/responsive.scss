@@ -1,21 +1,45 @@
-@media only screen
-and (max-width : 1000px) {
-	.nav-triangle{
-    display: none;
-  }
-  #icon_logo{
-    display: none;
-  }
-  #header{
-    height: 110px;
-  }
+@media (max-width : 1400px) and (min-width : 1200px) {
+	.section-container{
+		.section-two{
+			#section2_icon_road_traffic, #section2_icon_over_crowding, #section2_icon_increasing, #section2_icon_helping{
+				width: 11em;
+			}
+			h2{
+				font-size: 20px;
+			}
+			p{
+				font-size: 15px;
+			}
+			.right-section .right-section-2{
+				margin-left: -110px;
+			}
+		}
+		.section-three{
+			#section3_iphone_driver, #section3_iphone_message, #section3_iphone_passenger{
+				width: 18em;
+			}
+			.section2-driver-text{
+				margin-top: -10em;
+			}
+			.section2-pass-text{
+				margin-top: 20em;
+			}
+			.section2-message-text{
+				margin-top: 20em;
+			}
+		}
+	}
 }
 @media (max-width : 1200px) {
+	.footer{
+		p{
+			font-size: 14px;
+		}
+	}
 	.section-container{
 		p{
 			font-size: 14px;
 		}
-
 		.section-one{
 			background-size: cover;
 			#btn_find_out_more_hidden{
@@ -86,6 +110,9 @@ and (max-width : 1000px) {
 				font-size: 26px;
 				padding-top: 30px;
 			}
+			.btn-notify-me{
+				width: 20%;
+			}
 			.col-lg-1 div{
 				margin-top: 34px;
 			}
@@ -103,6 +130,9 @@ and (max-width : 1000px) {
 				padding-right: 80px;
 				margin-left: 100px;
 			}
+			.section-four-right{
+				margin-bottom: 30px;
+			}
 			.input-placeholder{
 				color: #32aeba;
 				width: 306px;
@@ -111,13 +141,27 @@ and (max-width : 1000px) {
 			    padding-left: 10px;
 			    padding-right: 10px;
 			}
+			.div-system-link{
+
+				a{
+					padding-left: 10px;
+					padding-right: 10px;
+					color: white;
+				}
+			}
 		}
 	}
 }
 @media only screen
-and (max-width : 765px) {
+and (max-width : 1000px) {
+	.nav-triangle{
+    display: none;
+  }
+  #icon_logo{
+    display: none;
+  }
   #header{
-    height: 72px;
+    height: 110px;
   }
 }
 @media only screen
@@ -148,36 +192,44 @@ and (max-width : 768px){
 				margin-top: 50px;
 			}
 		}
-
-		.section-three{
-			p{
-				font-size: 23px;
+		.section-two-mobile{
+			#img_road_01_mobile{
+		    padding-left: 7em;
 			}
-			.section-content-text{
-				margin-left: -1em;
-				margin-top: -30px;
+			.img_road_01{
+				width: 18em;
 			}
-			.section2-driver-text{
-				background-color: #32aeba;
-				margin-right: 5em;
-				margin-left: 3em;
-				margin-top: -4em;
-				padding: 20px;
-
+			.img-road-02{
+				width: 2.5em;
 			}
-			.section2-pass-text{
-				background-color: #32aeba;
-				margin-right: -4em;
-				margin-top: 12em;
-				padding: 20px;
-
+			.div-road-traffic-img{
+				margin-left: -1.5em;
 			}
-			.section2-message-text{
-				background-color: #32aeba;
-				margin-right: 5em;
-				margin-top: 12em;
-				padding: 20px;
+			#section_two_mobile_arrow_left{
+				padding-right: 5em;
+			}
+		}
 
+		.section-three-mobile{
+			#section_three_mobile_icon_driver{
+				padding-top: 6em;
+			}
+			.icon_driver{
+				width: 100%
+			}
+			.icon_arrow_left{
+				width: 2.5em;
+			}
+			#section_three_mobile_iphone{
+				padding-left: 2em;
+				.img-iphone{
+					width: 16em;
+				}
+			}
+			.div-driver-text{
+				p{
+					font-size: 22px;
+				}
 			}
 		}
 		.section-four{
@@ -201,7 +253,7 @@ and (max-width : 768px){
 				margin-top: 34px;
 			}
 			.col-lg-4 div{
-				padding-top: 40px;
+				padding-top: 10px;
 				img{
 					margin-right: 24px;
 				}
@@ -222,98 +274,327 @@ and (max-width : 768px){
 			    padding-left: 10px;
 			    padding-right: 10px;
 			}
+			.btn-notify-me{
+				width: 30%;
+			}
 		}
 	}
 }
-
-/* iPhone 5 ----------- */
 @media only screen
-and (max-width : 320px) {
-	body #ut-hero .grid-container .v_poster{
-		height: 50vh ;
+and (max-width : 765px) {
+  #header{
+    height: 72px;
+  }
+}
+@media only screen
+and (max-width : 736px){
+	.section-container{
+		.section-two{
+			height: 1370px;
+		}
+		.section-two-mobile{
+			.img-road-02{
+				width: 1.5em;
+			}
+		}
 	}
 }
-/* Smartphones (landscape) ----------- */
 @media only screen
-and (min-width : 321px) {
-	body #ut-hero .grid-container .v_poster{
-		height: 100vh ;
+and (max-width : 667px) {
+	.section-container{
+		.section-two{
+			height: 1440px;
+		}
+		.section-four{
+			h1{
+				font-size: 40px;
+			}
+			h2{
+				font-size: 38px;
+			}
+			h3{
+				font-size: 36px;
+			}
+			p{
+				font-size: 20px;
+			}
+		}
+		.section-four-left{
+			margin-bottom: 30px;
+		}
+		.col-lg-4 .div-link{
+			padding-top: 30px;
+		}
 	}
 }
-
-
-/* iPhone 6S ----------- */
 @media only screen
-and (max-width : 375px) {
-	body #ut-hero .grid-container .v_poster{
-		height: 50vh ;
+and (max-width : 568px) {
+	.section-container{
+		.section-two{
+			height: 1560px;
+		}
+		.section-three-mobile{
+			.div-driver-text p{
+				font-size: 18px;
+			}
+			#section_three_mobile_iphone .img-iphone{
+				width: 13em;
+			}
+		}
 	}
 }
-/* Smartphones (landscape) ----------- */
 @media only screen
-and (min-width : 376px) {
-	body #ut-hero .grid-container .v_poster{
-		/*height: 108vh ;*/
+and (max-width : 414px){
+	.section-container{
+		.section-two{
+			.img-get-started{
+				width: 130px;
+			}
+			.img_road_01{
+				width: 10em;
+			}
+		}
+		.section-two{
+			height: 1316px;
+		}
+		.section-two-mobile{
+			#img_road_01_mobile{
+				margin-top: -2em;
+				padding-left: 5em;
+			}
+			.img-why-alfred{
+				width: 9em;
+			}
+			#icon_why_alfred{
+				margin-top: -70px;
+			}
+			.div-road-traffic-img{
+				margin-left: -2.5em;
+			}
+			.icon_road_traffic{
+				width: 8em;
+			}
+			.img-arrow-left{
+				width: 50%;
+			}
+			.img-arrow-right{
+				width: 50%;
+			}
+			#section_two_mobile_arrow_right{
+				padding-left: 6em;
+			}
+			.div-road-traffic{
+				p{
+					font-size: 16px;
+				}
+			}
+		}
+		.section-three{
+			.icon-arrow-left{
+				width: 40%;
+			}
+			.icon-arrow-right{
+				width: 40%;
+			}
+		}
+		.section-three-mobile{
+			#section_three_mobile_icon_driver{
+				padding-top: 3em;
+				margin-bottom: -2em;
+			}
+			#section_three_mobile_arrow_left{
+				padding-top: 4.5em;
+    		padding-right: 3.5em;
+			}
+			#section_three_mobile_arrow_right{
+				padding-top: 4.5em;
+    		padding-left: 3.5em;
+			}
+			.div-driver-text p{
+				font-size: 14px;
+			}
+			#section_three_mobile_iphone .img-iphone{
+				width: 8em;
+			}
+			.img-road-03{
+				width: 1.5em;
+			}
+		}
+		.section-four{
+			padding-bottom: 7px;
+			h1{
+				font-size: 30px;
+			}
+			h2{
+				font-size: 24px;
+			}
+			h3{
+				font-size: 22px;
+			}
+			p{
+				font-size: 16px;
+				padding-top: 36px;
+			}
+			#p_input{
+				padding-top: 20px;
+				.input-placeholder{
+					width: 250px;
+					height: 40px;
+				}
+			}
+			.btn-notify-me{
+				width: 50%;
+			}
+			.section-four-left{
+				margin-left: 30px;
+			}
+			.div-app-link{
+				padding-top: 0px;
+			}
+			.col-lg-1 div{
+				margin-top: 28px;
+			}
+			img{
+				width: 80%;
+			}
+			.image_shadow{
+				width: 12%;
+				box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.3);
+			}
+			.div-info{
+				padding-left: 10px;
+			}
+			.div-system-link{
+				a{
+					font-size: 10px;
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+			}
+		}
 	}
 }
-
-/* iPhone 6S Plus----------- */
 @media only screen
-and (max-width : 414px) {
-	#icon_appstore_link{
-		width: 100%;
+and (max-width : 375px){
+	.section-container{
+		.section-one{
+			.section-content1, .section-content2{
+				font-size: 12px;
+			}
+			#btn_find_out_more_hidden{
+				font-size: 12px;
+			}
+		}
+		.section-two{
+			height: 1130px;
+			.img-get-started{
+				width: 110px;
+			}
+			.img_road_01{
+				width: 8em;
+			}
+		}
+		.section-two-mobile{
+			#img_road_01_mobile{
+				margin-top: -1.5em;
+			}
+			.img-why-alfred{
+				width: 7em;
+			}
+			#icon_why_alfred{
+				margin-left: -5px;
+			}
+			.icon_road_traffic{
+				width: 6em;
+			}
+			.div-road-traffic-img{
+				margin-left: -20px;
+			}
+			#section_two_mobile_arrow_left{
+				padding-top: 60px;
+				padding-right: 4em;
+			}
+			#section_two_mobile_arrow_right{
+				padding-top: 60px;
+				padding-left: 4em;
+			}
+			.div-road-traffic p{
+				font-size: 12px;
+			}
+		}
+		.section-three-mobile{
+			#section_three_mobile_iphone{
+				padding-left: 1em;
+			}
+			.div-driver-text p{
+				font-size: 12px;
+			}
+		}
+		.section-four{
+			h1{
+				font-size: 20px;
+			}
+			h2{
+				font-size: 18px;
+			}
+			h3{
+				font-size: 16px;
+				margin-top: 10px;
+			}
+			p{
+				font-size: 12px;
+				padding-top: 20px;
+			}
+			img{
+				width: 50%;
+			}
+			#icon_google_link, #icon_appstore_link{
+				width: 80%;
+			}
+			.col-lg-1 div{
+				margin-top: 24px;
+			}
+			.div-img-info{
+				margin-top: -10px;
+			}
+			#h1_about_us{
+				margin-top: 0px;
+    		margin-bottom: 0px;
+			}
+			#p_input .input-placeholder{
+				width: 200px;
+    		height: 30px;
+			}
+			.btn-notify-me{
+				width: 40%;
+			}
+			.image_shadow{
+				width: 10%;
+			}
+			.div-system-link a{
+				font-size: 8px;
+			}
+		}
 	}
-	#icon_google_link{
-		width: 100%;
+	@media only screen
+	and (max-width : 360px) {
+		.section-container{
+			.section-two{
+				height: 1190px;
+			}
+			.section-two-mobile{
+				.img-road-02{
+					width: 1em;
+				}
+			}
+			.section-three-mobile{
+				.div-driver-text p{
+					font-size: 10px;
+				}
+				#section_three_mobile_iphone .img-iphone{
+					width: 6em;
+				}
+			}
+		}
 	}
-}
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 415px) {
-	body #ut-hero .grid-container .v_poster{
-		/*height: 110vh ;*/
-	}
-}
-
-/* iPhone 7----------- */
-@media only screen
-and (max-width : 750px) and (orientation:portrait)  {
-	body #ut-hero .grid-container .v_poster{
-		height: 36vh ;
-	}
-}
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 751px) {
-	body #ut-hero .grid-container .v_poster{
-		height: 110vh ;
-	}
-}
-
-/* iPhone 7 Plus----------- */
-@media only screen
-and (max-width : 1080px) and (orientation:portrait) {
-	body #ut-hero .grid-container .v_poster{
-		height: 30vh ;
-	}
-}
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 1081px) and (orientation:landscape) {
-	body #ut-hero .grid-container .v_poster{
-		height: 110vh ;
-	}
-}
-
-/* iPad----------- */
-@media only screen
-and (max-width : 768px) and (orientation:portrait)  {
-	#header li a{
-		font-size: 25px;
-	}
-}
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 769px) and (orientation:landscape){
-
 }

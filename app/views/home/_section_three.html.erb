@@ -2,7 +2,7 @@
 	<div class="visible-lg row">
 		<div class="col-lg-5 left-section-2">
 			<div id="img_driver">
-				<%= image_tag("iphone_driver_mode.png") %>
+				<%= image_tag("iphone_driver_mode.png", id: "section3_iphone_driver") %>
 			</div>
 			<div class="section2-pass-text">
 				<p>
@@ -10,11 +10,11 @@
 				</p>
 			</div>
 			<div id="img_message">
-				<%= image_tag("iphone_message_board.png") %>
+				<%= image_tag("iphone_message_board.png", id: "section3_iphone_message") %>
 			</div>
 		</div>
 		<div class="col-lg-2">
-			<div id="img_driver_mode"><%= image_tag("icon_driver_mode.png")%></div>
+			<div id="img_driver_mode"><%= image_tag("icon_driver_mode.png", id: "section3_icon_driver")%></div>
 			<div id="img_road_03"><%= image_tag("road_03.png")%></div>
 			<div id="img_passenger"><%= image_tag("icon_passenger_mode.png")%></div>
 			<div id="img_road_04"><%= image_tag("road_04.png")%></div>
@@ -29,7 +29,7 @@
 				</p>
 			</div>
 			<div id="img_passenger_mode">
-				<%= image_tag("iphone_passenger_mode.png") %>
+				<%= image_tag("iphone_passenger_mode.png", id: "section3_iphone_passenger") %>
 			</div>
 			<div class="section2-message-text">
 				<p>
@@ -42,21 +42,21 @@
 		<div class="row text-center div-drive-mode">
 			<div class="row">
 				<div id="section_three_mobile_arrow_left" class="col-md-5 col-sm-5 col-xs-5 text-right">
-					<%= image_tag("mobile/arrow_left.png")%>
+					<%= image_tag("mobile/arrow_left.png", :class => "icon-arrow-left")%>
 				</div>
 				<div id="section_three_mobile_icon_driver" class="col-md-2 col-sm-2 col-xs-2 text-right">
 					<%= image_tag("mobile/icon_driver.png", :class => "icon_driver")%>
 				</div>
 				<div id="section_three_mobile_arrow_right" class="col-md-5 col-sm-5 col-xs-5 text-left">
-					<%= image_tag("mobile/arrow_right.png")%>
+					<%= image_tag("mobile/arrow_right.png", :class => "icon-arrow-right")%>
 				</div>
 			</div>
 		</div>
 		<div class="row div-driver-text">
-			<div class="col-md-5 col-sm-5 col-xs-5">
-				<div id="section_three_mobile_iphone"><%= image_tag("mobile/iphone_driver.png")%></div>
+			<div class="col-md-4 col-sm-4 col-xs-4">
+				<div id="section_three_mobile_iphone"><%= image_tag("mobile/iphone_driver.png", :class => "img-iphone")%></div>
 			</div>
-			<div class="col-md-7 col-sm-7 col-xs-7">
+			<div class="col-md-8 col-sm-8 col-xs-8">
 				<p id="section_three_mobile_p">
 					Just simply switch on the driver mode and advertise your journey on the Alfred map. You will become visible to fellow users and you might receive a push up notification from someone who wants to travel with you. Simply advertise the number of seats available in your car, price per seat and your destination. Remember that no profit is allowed and you can only share your costs!
 				</p>
@@ -64,7 +64,7 @@
 		</div>
 		<div class="row text-center">
 			<div class="section-three-mobile-road3">
-				<%= image_tag("mobile/road_03.png") %>
+				<%= image_tag("mobile/road_03.png", :class => "img-road-03") %>
 			</div>
 		</div>
 	</div>
