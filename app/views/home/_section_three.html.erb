@@ -1,5 +1,5 @@
-<section class="section-three  visible-lg">
-	<div id="ourapp" class="row">
+<section id="ourapp" class="section-three">
+	<div class="visible-lg row">
 		<div class="col-lg-5 left-section-2">
 			<div id="img_driver">
 				<%= image_tag("iphone_driver_mode.png") %>
@@ -36,5 +36,36 @@
 					If you are travelling in the next few days or even the next few hours, why not use the Alfred message board for advertising or requesting journeys such as an airport transfer. Generally this feature is used for booking your journeys in advance.
 				</p>
 			</div>
+		</div>
+	</div>
+	<div class="hidden-lg section-three-mobile">
+		<div class="row text-center div-drive-mode">
+			<div class="row">
+				<div id="section_three_mobile_arrow_left" class="col-md-5 col-sm-5 col-xs-5 text-right">
+					<%= image_tag("mobile/arrow_left.png")%>
+				</div>
+				<div id="section_three_mobile_icon_driver" class="col-md-2 col-sm-2 col-xs-2 text-right">
+					<%= image_tag("mobile/icon_driver.png", :class => "icon_driver")%>
+				</div>
+				<div id="section_three_mobile_arrow_right" class="col-md-5 col-sm-5 col-xs-5 text-left">
+					<%= image_tag("mobile/arrow_right.png")%>
+				</div>
+			</div>
+		</div>
+		<div class="row div-driver-text">
+			<div class="col-md-5 col-sm-5 col-xs-5">
+				<div id="section_three_mobile_iphone"><%= image_tag("mobile/iphone_driver.png")%></div>
+			</div>
+			<div class="col-md-7 col-sm-7 col-xs-7">
+				<p id="section_three_mobile_p">
+					Just simply switch on the driver mode and advertise your journey on the Alfred map. You will become visible to fellow users and you might receive a push up notification from someone who wants to travel with you. Simply advertise the number of seats available in your car, price per seat and your destination. Remember that no profit is allowed and you can only share your costs!
+				</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="section-three-mobile-road3">
+				<%= image_tag("mobile/road_03.png") %>
+			</div>
+		</div>
 	</div>
 </section>

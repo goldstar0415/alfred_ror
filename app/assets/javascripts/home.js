@@ -26,8 +26,8 @@ $(function() {
   $('.section-content2').waypoint(function() {
       $('.section-content2').addClass('animated fadeInUp');
   }, { offset: '90%' });
-  $('#btn_get_started').waypoint(function() {
-      $('#btn_get_started').addClass('animated fadeInUp');
+  $('.btn-get-started').waypoint(function() {
+      $('.btn-get-started').addClass('animated fadeInUp');
   }, { offset: '90%' });
   $('#icon_road_traffic').waypoint(function() {
       $('#icon_road_traffic').addClass('animated fadeInUp');
@@ -163,5 +163,67 @@ $(function() {
   }, { offset: '90%' });
   $('#a_facebook').waypoint(function() {
       $('#a_facebook').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+
+
+  $('#img_road_01_mobile').waypoint(function() {
+      $('#img_road_01_mobile').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('.img-why-alfred').waypoint(function() {
+      $('.img-why-alfred').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('.icon_road_traffic').waypoint(function() {
+      $('.icon_road_traffic').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('.img-arrow-left').waypoint(function() {
+      $('.img-arrow-left').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('.img-arrow-right').waypoint(function() {
+      $('.img-arrow-right').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('#road_traffic_mobile').waypoint(function() {
+      $('#road_traffic_mobile').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('#section_two_mobile_road_2').waypoint(function() {
+      $('#section_two_mobile_road_2').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('#section_three_mobile_arrow_left').waypoint(function() {
+      $('#section_three_mobile_arrow_left').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('.icon_driver').waypoint(function() {
+      $('.icon_driver').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('#section_three_mobile_arrow_right').waypoint(function() {
+      $('#section_three_mobile_arrow_right').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('#section_three_mobile_iphone').waypoint(function() {
+      $('#section_three_mobile_iphone').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('#section_three_mobile_p').waypoint(function() {
+      $('#section_three_mobile_p').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('.section-three-mobile-road3').waypoint(function() {
+      $('.section-three-mobile-road3').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('').waypoint(function() {
+      $('').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('').waypoint(function() {
+      $('').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('').waypoint(function() {
+      $('').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('').waypoint(function() {
+      $('').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('').waypoint(function() {
+      $('').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('').waypoint(function() {
+      $('').addClass('animated fadeInUp');
+  }, { offset: '90%' });
+  $('').waypoint(function() {
+      $('').addClass('animated fadeInUp');
   }, { offset: '90%' });
 });

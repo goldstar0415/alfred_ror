@@ -208,6 +208,9 @@ footer {
 		.left-section{
 			padding-left: 25px;
 			margin-top: 95px;
+			.section-content-text{
+				margin-top: -40px;
+			}
 		}
 		.left-section_2{
 			padding-left: 12em;
@@ -378,11 +381,28 @@ footer {
 			margin-right: 55px;
 		}
 		#img_road_01{
-			margin-top: -40px;
+			margin-top: 6px;
+			margin-left: -6em;
 		}
 		#icon_why_alfred{
 			margin-left: -20px;
-			margin-top: -90px
+			margin-top: -90px;
+			margin-bottom: 30px;
+		}
+		#section_two_mobile_arrow_left{
+			padding-top: 85px;
+			padding-right: 4em;
+		}
+		#section_two_mobile_arrow_right{
+			padding-top: 85px;
+			padding-left: 5em;
+		}
+		.icon_road_traffic{
+			width: 10em;
+			padding-top: 30px;
+		}
+		.div-road-traffic-img{
+			margin-left: -2.5em;
 		}
 		.div-road-traffic{
 			background-color: white;
@@ -401,6 +421,32 @@ footer {
 		margin-top: -8em;
 		p{
 			font-size: 23px;
+		}
+		#section_three_mobile_arrow_left{
+			padding-top: 8em;
+			padding-right: 5em;
+		}
+		#section_three_mobile_arrow_right{
+			padding-top: 8em;
+			padding-left: 6em;
+		}
+		#section_three_mobile_icon_driver{
+			padding-top: 4em;
+			margin-bottom: -5em;
+		}
+		#section_three_mobile_iphone{
+			padding-top: 2em;
+			padding-right: 5em;
+			padding-left: 6em;
+		}
+		.div-driver-text{
+			background-color: #32aeba;
+			margin-left: 2em;
+    	margin-right: 2em;
+			p{
+				padding: 2em;
+				font-size: 30px;
+			}
 		}
 	}
 }
