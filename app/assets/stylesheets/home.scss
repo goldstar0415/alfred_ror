@@ -42,25 +42,25 @@ body {
     padding: 20px 0 20px 0;
 }
 #header{
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.4);
 	margin-bottom: 0px;
-	height: 130px;
+	height: 80px;
 
 	.nav-triangle{
 		width: 0;
 		height: 0;
 		border-style: solid;
-		border-width: 140px 175px 0 175px;
-		border-color: rgba(0, 0, 0, 0.3) transparent transparent transparent;
+		border-width: 85px 165px 0 165px;
+		border-color: rgba(0, 0, 0, 0.4) transparent transparent transparent;
 	    position: absolute;
-	    top: 110px;
-	    left: -94px;
+	    top: 80px;
+	    left: -102px;
 	    z-index: -1;
 	}
 	li{
 		margin-right: 15px;
   	margin-left: 15px;
-		margin-top: 20px;
+		margin-top: 0px;
 
 		a{
 			color: white;
@@ -108,6 +108,11 @@ body {
   width: 60px;
   background-size: cover;
 }
+#img_logo{
+	width: 100px;
+	margin-top: -10px;
+}
+
 footer {
 	width: 100%;
 }
@@ -169,7 +174,7 @@ footer {
 		}
 		.section-title{
 			font-size: 70px;
-			margin-top: 5em;
+			margin-top: 4em;
 			text-shadow: 5px 5px 8px rgba(0,0,0, 0.6);
 		}
 	}
@@ -235,6 +240,7 @@ footer {
 		}
 	}
 	.section-three{
+		padding-top: 280px;
 		background-image: image-url("background_map.png");
 		p{
 			font-size: 23px;
@@ -319,15 +325,15 @@ footer {
 			margin-left: 100px;
 		}
 		h1{
-			font-size: 46px;
+			font-size: 40px;
 		}
 		h2{
-			font-size: 38px;
+			font-size: 30px;
 		}
 		h3{
-			font-size: 30px;
+			font-size: 26px;
 		    color: white;
-		    margin-top: 42px;
+		    margin-top: 30px;
 		    margin-bottom: -6px;
 		}
 		p{
@@ -338,26 +344,34 @@ footer {
 			margin-top: 34px;
 		}
 		.col-lg-4 div{
-			padding-top: 40px;
-			img{
+			padding-top: 10px;
+			#icon_appstore_link, #icon_google_link{
 				margin-right: 24px;
+				width: 40%;
 			}
 		}
 		.image_shadow{
 			box-shadow: 0px 5px 1px rgba(0,0,0,0.3);
     		border-radius: 35px;
 		}
+		.btn-notify-me{
+			width: 50%;
+		}
+		.image_shadow{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
 		.input-placeholder{
 			color: #32aeba;
-			width: 306px;
-		    height: 56px;
+			width: 270px;
+		    height: 40px;
 		    border-left-width: 0px;
 		    padding-left: 10px;
 		    padding-right: 10px;
 		}
 		.div-info{
 			text-align: left;
-			padding-left: -20px;
+			padding-left: 20px;
 		}
 		#button_notify_me{
 			margin-bottom: 30px
@@ -386,6 +400,9 @@ footer {
 		.img_road_01{
 			width: 20em;
 		}
+		.img-road-02{
+			width: 3em;
+		}
 		#p_over_crowding{
 			margin-right: 55px;
 		}
@@ -399,15 +416,21 @@ footer {
 			margin-bottom: 30px;
 		}
 		#section_two_mobile_arrow_left{
-			padding-top: 85px;
+			padding-top: 5em;
 			padding-right: 4em;
+			.img-arrow-left{
+				width: 3em;
+			}
 		}
 		#section_two_mobile_arrow_right{
-			padding-top: 85px;
-			padding-left: 5em;
+			padding-top: 5em;
+			padding-left: 3.5em;
+			.img-arrow-right{
+				width: 3em;
+			}
 		}
 		.icon_road_traffic{
-			width: 10em;
+			width: 8em;
 			padding-top: 30px;
 		}
 		.div-road-traffic-img{
@@ -432,16 +455,22 @@ footer {
 			font-size: 23px;
 		}
 		#section_three_mobile_arrow_left{
-			padding-top: 8em;
-			padding-right: 5em;
+			padding-top: 5em;
+			padding-right: 4em;
+			.icon-arrow-left{
+				width: 3em;
+			}
 		}
 		#section_three_mobile_arrow_right{
-			padding-top: 8em;
-			padding-left: 6em;
+			padding-top: 5em;
+			padding-left: 4em;
+			.icon-arrow-right{
+				width: 3em;
+			}
 		}
 		#section_three_mobile_icon_driver{
-			padding-top: 4em;
-			margin-bottom: -5em;
+			padding-top: 3em;
+			margin-bottom: -3em;
 		}
 		#section_three_mobile_iphone{
 			padding-top: 2em;

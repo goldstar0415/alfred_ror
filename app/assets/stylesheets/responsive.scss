@@ -61,8 +61,11 @@
 				margin-top: 80px;
 			}
 		}
-
+		.section-two{
+			height: 1376px;
+		}
 		.section-three{
+			padding-top: 0px;
 			p{
 				font-size: 23px;
 			}
@@ -93,6 +96,13 @@
 
 			}
 		}
+		.section-three-mobile{
+			#section_three_mobile_icon_driver{
+				.icon_driver{
+					width: 11em;
+				}
+			}
+		}
 		.section-four{
 			h1{
 				font-size: 46px;
@@ -110,6 +120,9 @@
 				font-size: 26px;
 				padding-top: 30px;
 			}
+			.div-info{
+				padding-left: 0px;
+			}
 			.btn-notify-me{
 				width: 20%;
 			}
@@ -117,9 +130,8 @@
 				margin-top: 34px;
 			}
 			.col-lg-4 div{
-				padding-top: 40px;
-				img{
-					margin-right: 24px;
+				#icon_appstore_link, #icon_google_link{
+					width: 60%;
 				}
 			}
 			.image_shadow{
@@ -142,7 +154,6 @@
 			    padding-right: 10px;
 			}
 			.div-system-link{
-
 				a{
 					padding-left: 10px;
 					padding-right: 10px;
@@ -160,12 +171,12 @@ and (max-width : 1000px) {
   #icon_logo{
     display: none;
   }
-  #header{
-    height: 110px;
-  }
 }
 @media only screen
 and (max-width : 768px){
+	#header li a {
+    font-size: 28px;
+	}
 	.section-container{
 		p{
 			font-size: 14px;
@@ -200,7 +211,7 @@ and (max-width : 768px){
 				width: 18em;
 			}
 			.img-road-02{
-				width: 2.5em;
+				width: 2em;
 			}
 			.div-road-traffic-img{
 				margin-left: -1.5em;
@@ -208,12 +219,12 @@ and (max-width : 768px){
 			#section_two_mobile_arrow_left{
 				padding-right: 5em;
 			}
+			#section_two_mobile_arrow_right{
+				padding-left: 4em;
+			}
 		}
 
 		.section-three-mobile{
-			#section_three_mobile_icon_driver{
-				padding-top: 6em;
-			}
 			.icon_driver{
 				width: 100%
 			}
@@ -225,6 +236,9 @@ and (max-width : 768px){
 				.img-iphone{
 					width: 16em;
 				}
+			}
+			#section_three_mobile_icon_driver .icon_driver{
+				width: 6em;
 			}
 			.div-driver-text{
 				p{
@@ -264,7 +278,7 @@ and (max-width : 768px){
 			}
 			.section-four-left{
 				padding-right: 80px;
-				margin-left: 100px;
+				margin-left: 30px;
 			}
 			.input-placeholder{
 				color: #32aeba;
@@ -283,14 +297,14 @@ and (max-width : 768px){
 @media only screen
 and (max-width : 765px) {
   #header{
-    height: 72px;
+    height: 60px;
   }
 }
 @media only screen
 and (max-width : 736px){
 	.section-container{
 		.section-two{
-			height: 1370px;
+			height: 1340px;
 		}
 		.section-two-mobile{
 			.img-road-02{
@@ -374,14 +388,16 @@ and (max-width : 414px){
 			.icon_road_traffic{
 				width: 8em;
 			}
-			.img-arrow-left{
-				width: 50%;
-			}
-			.img-arrow-right{
-				width: 50%;
+			#section_two_mobile_arrow_left{
+				.img-arrow-left{
+					width: 2em;
+				}
 			}
 			#section_two_mobile_arrow_right{
 				padding-left: 6em;
+				.img-arrow-right{
+					width: 2em;
+				}
 			}
 			.div-road-traffic{
 				p{
@@ -390,12 +406,6 @@ and (max-width : 414px){
 			}
 		}
 		.section-three{
-			.icon-arrow-left{
-				width: 40%;
-			}
-			.icon-arrow-right{
-				width: 40%;
-			}
 		}
 		.section-three-mobile{
 			#section_three_mobile_icon_driver{
@@ -405,10 +415,16 @@ and (max-width : 414px){
 			#section_three_mobile_arrow_left{
 				padding-top: 4.5em;
     		padding-right: 3.5em;
+				.icon-arrow-left{
+					width: 2em;
+				}
 			}
 			#section_three_mobile_arrow_right{
 				padding-top: 4.5em;
-    		padding-left: 3.5em;
+    		padding-left: 4.5em;
+				.icon-arrow-right{
+					width: 2em;
+				}
 			}
 			.div-driver-text p{
 				font-size: 14px;
@@ -440,6 +456,11 @@ and (max-width : 414px){
 				.input-placeholder{
 					width: 250px;
 					height: 40px;
+				}
+			}
+			.col-lg-4 div{
+				#icon_google_link, #icon_appstore_link {
+				 width: 80%;
 				}
 			}
 			.btn-notify-me{
@@ -516,7 +537,7 @@ and (max-width : 375px){
 			}
 			#section_two_mobile_arrow_right{
 				padding-top: 60px;
-				padding-left: 4em;
+				padding-left: 5em;
 			}
 			.div-road-traffic p{
 				font-size: 12px;
@@ -548,8 +569,10 @@ and (max-width : 375px){
 			img{
 				width: 50%;
 			}
-			#icon_google_link, #icon_appstore_link{
-				width: 80%;
+			.col-lg-4 div{
+				#icon_google_link, #icon_appstore_link {
+				 width: 80%;
+				}
 			}
 			.col-lg-1 div{
 				margin-top: 24px;
@@ -580,7 +603,7 @@ and (max-width : 375px){
 	and (max-width : 360px) {
 		.section-container{
 			.section-two{
-				height: 1190px;
+				height: 1130px;
 			}
 			.section-two-mobile{
 				.img-road-02{
@@ -593,6 +616,40 @@ and (max-width : 375px){
 				}
 				#section_three_mobile_iphone .img-iphone{
 					width: 6em;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width : 320px) {
+	.section-container{
+		.section-two{
+			height: 1190px;
+		}
+
+		.section-three-mobile{
+			#section_three_mobile_icon_driver .icon_driver{
+				width: 4em;
+			}
+			#section_three_mobile_arrow_left{
+				padding-top: 4em;
+		    padding-right: 2em;
+				.icon-arrow-left {
+			    width: 2em;
+				}
+			}
+			#section_three_mobile_arrow_right{
+				padding-top: 4em;
+		    padding-left: 2em;
+				.icon-arrow-right {
+			    width: 2em;
+				}
+			}
+		}
+		.section-four{
+			.col-lg-4 div{
+				#icon_google_link, #icon_appstore_link {
+				 width: 80%;
 				}
 			}
 		}
