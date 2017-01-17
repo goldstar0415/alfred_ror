@@ -4,7 +4,7 @@
 			font-size: 50px;
 		}
 		h2{
-			font-size: 20px;
+			font-size: 30px;
 		}
 		p{
 			font-size: 26px;
@@ -785,6 +785,9 @@ and (max-width : 375px){
 	}
 }
 @media only screen and (max-width : 320px) {
+	.footer p {
+    font-size: 12px;
+	}
 	.section-container{
 		h1{
 			font-size: 16px;
@@ -793,12 +796,27 @@ and (max-width : 375px){
 			font-size: 8px;
 		}
 		.section-one{
-			margin-top: 70px;
+			.section-title{
+				margin-top: 70px;
+			}
 		}
 		.section-two{
 			height: 930px;
+			.img_road_01 {
+			 	width: 7em;
+			}
 		}
-
+		.section-two-mobile{
+			.img-why-alfred {
+		    width: 7em;
+			}
+			#img_road_01_mobile {
+		    padding-left: 4em;
+			}
+			#icon_why_alfred {
+	    	margin-top: -50px;
+			}
+		}
 		.section-three-mobile{
 			#section_three_mobile_icon_driver .icon_driver{
 				width: 4em;
