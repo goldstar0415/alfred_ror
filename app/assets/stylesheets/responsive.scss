@@ -1,14 +1,29 @@
 @media (max-width : 1400px) and (min-width : 1200px) {
 	.section-container{
+		h1{
+			font-size: 50px;
+		}
+		h2{
+			font-size: 20px;
+		}
+		p{
+			font-size: 26px;
+		}
+		.section-one{
+			.section-content1{
+				margin-top: 80px;
+			}
+			.section-btn-section1{
+				margin-top: 210px;
+			}
+		}
 		.section-two{
 			#section2_icon_road_traffic, #section2_icon_over_crowding, #section2_icon_increasing, #section2_icon_helping{
 				width: 11em;
 			}
-			h2{
-				font-size: 20px;
-			}
-			p{
-				font-size: 15px;
+			.section-content2 {
+		    margin-top: 20px;
+		    margin-bottom: 30px;
 			}
 			.right-section .right-section-2{
 				margin-left: -110px;
@@ -28,6 +43,11 @@
 				margin-top: 20em;
 			}
 		}
+		.section-four{
+			.section-four-left{
+				margin-left: 30px;
+			}
+		}
 	}
 }
 @media (max-width : 1200px) {
@@ -37,8 +57,14 @@
 		}
 	}
 	.section-container{
+		h1{
+			font-size: 40px;
+		}
+		h2{
+			font-size: 20px;
+		}
 		p{
-			font-size: 14px;
+			font-size: 20px;
 		}
 		.section-one{
 			background-size: cover;
@@ -50,25 +76,23 @@
 				display: none;
 			}
 			.section-title{
-				font-size: 40px;
 				margin-top: 250px;
 			}
 			.section-content1{
-				font-size: 18px;
-				margin-top: 30px;
+				margin-top: 80px;
 			}
 			.content-btn-section1{
 				margin-top: 80px;
 			}
 		}
 		.section-two{
-			height: 1376px;
+			height: 1288px;
 		}
 		.section-three{
-			padding-top: 0px;
 			p{
-				font-size: 23px;
+				font-size: 33px;
 			}
+			padding-top: 0px;
 			.section-content-text{
 				margin-left: -1em;
 				margin-top: -30px;
@@ -94,6 +118,11 @@
 				margin-top: 12em;
 				padding: 20px;
 
+			}
+		}
+		.section-two-mobile{
+			.img-road-02{
+				width: 2em;
 			}
 		}
 		.section-three-mobile{
@@ -178,40 +207,44 @@ and (max-width : 768px){
     font-size: 28px;
 	}
 	.section-container{
+		h1{
+			font-size: 32px;
+		}
 		p{
-			font-size: 14px;
+			font-size: 15px;
 		}
 
 		.section-one{
 			background-size: cover;
 			#btn_find_out_more_hidden{
 				display:inline !important;
-				font-size: 16px;
+				font-size: 14px;
 			}
 			#btn_find_out_more_show{
 				display: none;
 			}
 			.section-title{
-				font-size: 30px;
 				margin-top: 160px;
 			}
 			.section-content1{
-				font-size: 15px;
 				margin-top: 30px;
 			}
 			.content-btn-section1{
 				margin-top: 50px;
 			}
 		}
+		.section-two{
+			height: 1110px;
+		}
 		.section-two-mobile{
 			#img_road_01_mobile{
 		    padding-left: 7em;
 			}
 			.img_road_01{
-				width: 18em;
+				width: 15em;
 			}
 			.img-road-02{
-				width: 2em;
+				width: 1.5em;
 			}
 			.div-road-traffic-img{
 				margin-left: -1.5em;
@@ -231,6 +264,9 @@ and (max-width : 768px){
 			.icon_arrow_left{
 				width: 2.5em;
 			}
+			.img-road-03{
+				width: 2em;
+			}
 			#section_three_mobile_iphone{
 				padding-left: 2em;
 				.img-iphone{
@@ -248,20 +284,23 @@ and (max-width : 768px){
 		}
 		.section-four{
 			h1{
-				font-size: 46px;
+				font-size: 36px;
 			}
 			h2{
-				font-size: 38px;
+				font-size: 31px;
 			}
 			h3{
 				font-size: 30px;
-			    color: white;
-			    margin-top: 42px;
-			    margin-bottom: -6px;
+		    color: white;
+		    margin-top: 42px;
+		    margin-bottom: -6px;
 			}
 			p{
-				font-size: 26px;
+				font-size: 20px;
 				padding-top: 30px;
+			}
+			img{
+				width: 3em;
 			}
 			.col-lg-1 div{
 				margin-top: 34px;
@@ -304,7 +343,7 @@ and (max-width : 765px) {
 and (max-width : 736px){
 	.section-container{
 		.section-two{
-			height: 1340px;
+			height: 1090px;
 		}
 		.section-two-mobile{
 			.img-road-02{
@@ -317,7 +356,7 @@ and (max-width : 736px){
 and (max-width : 667px) {
 	.section-container{
 		.section-two{
-			height: 1440px;
+			height: 1109px;
 		}
 		.section-four{
 			h1{
@@ -341,11 +380,78 @@ and (max-width : 667px) {
 		}
 	}
 }
+@media only screen and (max-width : 640px) {
+	.section-container{
+		.section-two{
+			height: 1094px;
+		}
+		.section-two-mobile .img_road_01 {
+    	width: 13em;
+		}
+		.section-three-mobile{
+			#section_three_mobile_iphone .img-iphone {
+		    width: 14em;
+			}
+			.div-driver-text p {
+		    font-size: 20px;
+			}
+		}
+		.section-four{
+			h1 {
+		    font-size: 35px;
+			}
+			h2{
+				font-size: 30px;
+			}
+			h3{
+				font-size: 28px;
+			}
+			.input-placeholder{
+				width: 275px;
+				height: 40px;
+			}
+		}
+	}
+}
 @media only screen
 and (max-width : 568px) {
 	.section-container{
+		p{
+			font-size: 12px;
+		}
+		.section-one{
+			.section-title{
+				margin-top: 100px;
+			}
+			.section-content1{
+
+			}
+			#btn_find_out_more_hidden {
+	  		font-size: 12px;
+			}
+			.content-btn-section1{
+				margin-bottom: 25px;
+			}
+		}
 		.section-two{
-			height: 1560px;
+			height: 980px;
+		}
+		.section-two-mobile{
+			.img_road_01{
+				width: 12em;
+			}
+			.icon_road_traffic{
+				width: 7em;
+			}
+			#section_two_mobile_arrow_left .img-arrow-left {
+		    width: 2em;
+			}
+			#section_two_mobile_arrow_right{
+				padding-left: 4.5em;
+				.img-arrow-right {
+		    	width: 2em;
+				}
+			}
 		}
 		.section-three-mobile{
 			.div-driver-text p{
@@ -354,12 +460,63 @@ and (max-width : 568px) {
 			#section_three_mobile_iphone .img-iphone{
 				width: 13em;
 			}
+			#section_three_mobile_icon_driver .icon_driver {
+	    	width: 5em;
+			}
+			#section_three_mobile_arrow_left .icon-arrow-left {
+		    width: 2em;
+			}
+			#section_three_mobile_arrow_right .icon-arrow-right {
+		    width: 2em;
+			}
+		}
+		.section-four{
+			h1{
+				font-size: 32px;
+			}
+			h2{
+				font-size: 28px;
+			}
+			h3{
+				font-size: 26px;
+				margin-top: 10px;
+			}
+			p{
+				font-size: 16px;
+			}
+			img{
+				width: 2em;
+			}
+			.input-placeholder{
+				width: 264px;
+				height: 33px;
+			}
 		}
 	}
 }
 @media only screen
 and (max-width : 414px){
 	.section-container{
+		h1{
+			font-size: 22px;
+		}
+		p{
+			font-size: 9px;
+		}
+		.section-one{
+			.section-title{
+				margin-top: 80px;
+			}
+			.section-content1{
+
+			}
+			#btn_find_out_more_hidden{
+				font-size: 9px;
+			}
+			.content-btn-section1{
+				margin-top: 14px;
+			}
+		}
 		.section-two{
 			.img-get-started{
 				width: 130px;
@@ -369,7 +526,7 @@ and (max-width : 414px){
 			}
 		}
 		.section-two{
-			height: 1316px;
+			height: 1147px;
 		}
 		.section-two-mobile{
 			#img_road_01_mobile{
@@ -498,16 +655,22 @@ and (max-width : 414px){
 @media only screen
 and (max-width : 375px){
 	.section-container{
+		h1{
+			font-size: 19px;
+		}
+		p{
+			font-size: 8px;
+		}
 		.section-one{
-			.section-content1, .section-content2{
-				font-size: 12px;
+			.section-content1{
+				margin-top: 14px;
 			}
 			#btn_find_out_more_hidden{
-				font-size: 12px;
+				font-size: 8px;
 			}
 		}
 		.section-two{
-			height: 1130px;
+			height: 930px;
 			.img-get-started{
 				width: 110px;
 			}
@@ -603,7 +766,7 @@ and (max-width : 375px){
 	and (max-width : 360px) {
 		.section-container{
 			.section-two{
-				height: 1130px;
+				height: 898px;
 			}
 			.section-two-mobile{
 				.img-road-02{
@@ -623,8 +786,17 @@ and (max-width : 375px){
 }
 @media only screen and (max-width : 320px) {
 	.section-container{
+		h1{
+			font-size: 16px;
+		}
+		p{
+			font-size: 8px;
+		}
+		.section-one{
+			margin-top: 70px;
+		}
 		.section-two{
-			height: 1190px;
+			height: 930px;
 		}
 
 		.section-three-mobile{

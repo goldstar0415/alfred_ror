@@ -136,14 +136,24 @@ footer {
 }
 
 .section-container{
+	h1{
+		font-size: 70px;
+		color: white;
+		text-transform: uppercase;
+	}
+	h2{
+		font-size: 30px;
+		color: white;
+		text-transform: uppercase;
+	}
+	h3{
+		font-size: 26px;
+		color: white;
+	}
 	p{
 		margin: 0px;
 		color: white;
-		font-size: 18px;
-	}
-	h1, h2{
-		color: white;
-		text-transform: uppercase;
+		font-size: 25px;
 	}
 	.col-md-8, .col-md-4, .col-md-5, .col-md-2, .col-lg-7, .col-lg-5{
 		padding: 0px;
@@ -162,7 +172,6 @@ footer {
 	    padding: 10px 20px;
 		}
 		.section-content1{
-			font-size: 25px;
 			margin-top: 120px;
 		}
 		.content-btn-section1{
@@ -173,20 +182,21 @@ footer {
 			display: none;
 		}
 		.section-title{
-			font-size: 70px;
 			margin-top: 4em;
 			text-shadow: 5px 5px 8px rgba(0,0,0, 0.6);
 		}
 	}
 	.section-two{
+		.blog-content{
+			font-size: 16px;
+		}
 		background-color: #32aeba;
 		height: 1450px;
 		.section-content2{
-			font-size: 25px;
-			margin-top: 60px; margin-bottom: 60px
+			margin-top: 60px;
+			margin-bottom: 60px
 		}
 		.section-title2{
-			font-size: 52px;
 			margin-top: 60px;
 		}
 		.div_over_crowding{
@@ -242,9 +252,6 @@ footer {
 	.section-three{
 		padding-top: 280px;
 		background-image: image-url("background_map.png");
-		p{
-			font-size: 23px;
-		}
 		.left-section-2{
 			margin-left: 15px;
 			margin-top: -15em;
@@ -261,7 +268,7 @@ footer {
 			background-color: #32aeba;
 			margin-right: 5em;
 			margin-left: 3em;
-			margin-top: -4em;
+			margin-top: -8em;
 			padding: 20px;
 
 		}
@@ -275,11 +282,11 @@ footer {
 		.section2-message-text{
 			background-color: #32aeba;
 			margin-right: 5em;
-			margin-top: 12em;
+			margin-top: 15em;
 			padding: 20px;
 		}
 		#img_message{
-			margin-top: 12em;
+			margin-top: 7em;
 		}
 		#img_driver_mode{
 			margin-left: -7em;
@@ -310,7 +317,7 @@ footer {
 			margin-bottom: 30px;
 		}
 		#img_passenger_mode{
-			margin-top: 15em;
+			margin-top: 8em;
 			margin-left: 15em;
 		}
 	}
@@ -324,20 +331,11 @@ footer {
 			padding-right: 80px;
 			margin-left: 100px;
 		}
-		h1{
-			font-size: 40px;
-		}
-		h2{
-			font-size: 30px;
-		}
 		h3{
-			font-size: 26px;
-		    color: white;
-		    margin-top: 30px;
-		    margin-bottom: -6px;
+	    margin-top: 30px;
+	    margin-bottom: -6px;
 		}
 		p{
-			font-size: 26px;
 			padding-top: 30px;
 		}
 		.col-lg-1 div{
@@ -380,12 +378,7 @@ footer {
 	.section-two-mobile{
 		background-color: #32aeba;
 		padding-bottom: 30px;
-		// height: 1478px;
-		.section-title2{
-			font-size: 32px;
-		}
 		.section-content2{
-			font-size: 18px;
 			margin-top: 30px;
 			margin-bottom: 40px;
 			padding-left: 1em;
@@ -444,16 +437,12 @@ footer {
 			p{
 				color: #32aeba;
 				padding: 2em;
-				font-size: 22px;
 			}
 		}
 	}
 	.section-three-mobile{
 		background-image: image-url("mobile/bacground_map.png");
 		margin-top: -8em;
-		p{
-			font-size: 23px;
-		}
 		#section_three_mobile_arrow_left{
 			padding-top: 5em;
 			padding-right: 4em;
@@ -483,7 +472,6 @@ footer {
     	margin-right: 2em;
 			p{
 				padding: 2em;
-				font-size: 30px;
 			}
 		}
 	}
