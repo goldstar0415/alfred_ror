@@ -341,6 +341,18 @@ and (max-width : 765px) {
 }
 @media only screen
 and (max-width : 736px){
+	#header{
+		height: 48px;
+		.navbar-toggle {
+			top: 0px;
+		}
+		li{
+			margin-top: -12px;
+			a{
+				font-size: 16px;
+			}
+		}
+	}
 	.section-container{
 		.section-two{
 			height: 1090px;
@@ -496,6 +508,18 @@ and (max-width : 568px) {
 }
 @media only screen
 and (max-width : 414px){
+	#header{
+		height: 36px;
+		.navbar-toggle {
+			top: -3px;
+		}
+		li{
+			margin-top: -20px;
+			a{
+				font-size: 12px;
+			}
+		}
+	}
 	.section-container{
 		h1{
 			font-size: 22px;
